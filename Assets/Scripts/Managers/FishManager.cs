@@ -30,10 +30,17 @@ public class FishManager : MonoBehaviour
 
     public void Fish()
     {
-        gameManager.totalFish++;
+        int fish = 1;
+        fish += (int) Player.instance.GetAttribute("catchBonus").value;
 
-        if (bucket.capacity != gameManager.fish)
-            gameManager.fish++;
+        gameManager.totalFish+= fish;
+
+        if (bucket.capacity > gameManager.fish)
+            gameManager.fish+= fish;
+        
+        // If the fish has gone over the capacity, set it back to the capacity
+        if (gameManager.fish > bucket.capacity)
+            gameManager.fish = (int) bucket.capacity;
 
         OnFishEvent.Invoke();
     }
