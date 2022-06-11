@@ -15,7 +15,7 @@ MonoBehaviour:
   title: Bucket Capacity I
   description: Increase the bucket capacity to 150
   fishCost: 0
-  dollarCost: 50
+  dollarCost: 150
   affectedAttribute: {fileID: 11400000, guid: 1465548297334ee4593c067f53e6adfc, type: 2}
   value: 150
   action: 1

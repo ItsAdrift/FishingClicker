@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: FishingSpeed2
   m_EditorClassIdentifier: 
   title: Fishing Speed II
-  description: Increase fishing speed by 5%
+  description: Increase fishing speed by 11.11%
   fishCost: 50
   dollarCost: 50
   affectedAttribute: {fileID: 11400000, guid: b19279abd748dc641a566cef6afcf9de, type: 2}
-  value: 0.9
+  value: 0.8
   action: 1
   requiredUpgrades:
   - {fileID: 11400000, guid: dbfbbe08c9811c245bf48eec12e68a35, type: 2}
