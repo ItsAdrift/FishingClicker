@@ -21,5 +21,5 @@ public class Upgrade : ScriptableObject
     public Upgrade[] requiredUpgrades;
     public Upgrade[] unlockUpgrades;
 
-    public enum UpgradeAction { ADD, SET }
+    public enum UpgradeAction { ADD, MULTIPLY, SET }
 }

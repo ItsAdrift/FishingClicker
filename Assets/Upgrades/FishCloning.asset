@@ -21,4 +21,5 @@ MonoBehaviour:
   action: 0
   requiredUpgrades:
   - {fileID: 11400000, guid: b523f842c7cd8df42aa661c515f7119b, type: 2}
-  unlockUpgrades: []
+  unlockUpgrades:
+  - {fileID: 11400000, guid: 25013998281b1e64aa0bbce699a3216b, type: 2}

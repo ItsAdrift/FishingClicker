@@ -63,7 +63,12 @@ public class UpgradeManager : MonoBehaviour
         if (upgrade.action == global::Upgrade.UpgradeAction.ADD)
         {
             playerAttribute.value += upgrade.value;
-        } else if (upgrade.action == global::Upgrade.UpgradeAction.SET)
+        }
+        else if (upgrade.action == global::Upgrade.UpgradeAction.MULTIPLY)
+        {
+            playerAttribute.value *= upgrade.value;
+        }
+        else if (upgrade.action == global::Upgrade.UpgradeAction.SET)
         {
             playerAttribute.value = upgrade.value;
         }

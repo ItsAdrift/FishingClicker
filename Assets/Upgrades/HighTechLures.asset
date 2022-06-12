@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fea52786071b2204a8895826bd1383af, type: 3}
-  m_Name: FishingSpeed1
+  m_Name: HighTechLures
   m_EditorClassIdentifier: 
-  title: Fishing Speed I
-  description: Decrease fishing speed by 10%
-  fishCost: 25
-  dollarCost: 0
+  title: High-Tech Lures
+  description: Decrease fishing time by 50%
+  fishCost: 150
+  dollarCost: 500
   affectedAttribute: {fileID: 11400000, guid: b19279abd748dc641a566cef6afcf9de, type: 2}
-  value: -0.1
-  action: 0
+  value: 0.5
+  action: 1
   requiredUpgrades: []
-  unlockUpgrades:
-  - {fileID: 11400000, guid: b523f842c7cd8df42aa661c515f7119b, type: 2}
-  - {fileID: 11400000, guid: 3f1f128ec468a144ba3c25b0c852a3b3, type: 2}
+  unlockUpgrades: []

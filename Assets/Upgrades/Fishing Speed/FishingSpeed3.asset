@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fea52786071b2204a8895826bd1383af, type: 3}
-  m_Name: FishingSpeed1
+  m_Name: FishingSpeed3
   m_EditorClassIdentifier: 
-  title: Fishing Speed I
+  title: Fishing Speed III
   description: Decrease fishing speed by 10%
-  fishCost: 25
-  dollarCost: 0
+  fishCost: 100
+  dollarCost: 100
   affectedAttribute: {fileID: 11400000, guid: b19279abd748dc641a566cef6afcf9de, type: 2}
   value: -0.1
-  action: 0
-  requiredUpgrades: []
-  unlockUpgrades:
+  action: 1
+  requiredUpgrades:
   - {fileID: 11400000, guid: b523f842c7cd8df42aa661c515f7119b, type: 2}
-  - {fileID: 11400000, guid: 3f1f128ec468a144ba3c25b0c852a3b3, type: 2}
+  unlockUpgrades:
+  - {fileID: 11400000, guid: 25013998281b1e64aa0bbce699a3216b, type: 2}
