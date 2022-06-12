@@ -17,8 +17,8 @@ MonoBehaviour:
   fishCost: 25
   dollarCost: 0
   affectedAttribute: {fileID: 11400000, guid: b19279abd748dc641a566cef6afcf9de, type: 2}
-  value: 0.9
-  action: 1
+  value: -0.1
+  action: 0
   requiredUpgrades: []
   unlockUpgrades:
   - {fileID: 11400000, guid: b523f842c7cd8df42aa661c515f7119b, type: 2}

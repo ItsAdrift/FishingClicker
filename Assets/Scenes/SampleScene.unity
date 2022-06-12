@@ -157,7 +157,7 @@ MonoBehaviour:
       m_Calls: []
   attributes:
   - attribute: {fileID: 11400000, guid: b19279abd748dc641a566cef6afcf9de, type: 2}
-    value: 1
+    value: 0.7
   - attribute: {fileID: 11400000, guid: 1465548297334ee4593c067f53e6adfc, type: 2}
     value: 100
   - attribute: {fileID: 11400000, guid: bf0f83533d4c0e948bf87f49467a2264, type: 2}
