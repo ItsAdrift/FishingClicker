@@ -18,7 +18,7 @@ MonoBehaviour:
   dollarCost: 150
   affectedAttribute: {fileID: 11400000, guid: 1465548297334ee4593c067f53e6adfc, type: 2}
   value: 150
-  action: 1
+  action: 0
   requiredUpgrades:
   - {fileID: 11400000, guid: b523f842c7cd8df42aa661c515f7119b, type: 2}
   unlockUpgrades:

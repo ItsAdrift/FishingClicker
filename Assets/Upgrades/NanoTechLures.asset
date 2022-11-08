@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: NanoTechLures
   m_EditorClassIdentifier: 
   title: Nano-Tech Lures
-  description: Decrease fishing time by 50%
+  description: Decrease fishing time by a further 10%
   fishCost: 250
-  dollarCost: 1000
+  dollarCost: 5000
   affectedAttribute: {fileID: 11400000, guid: b19279abd748dc641a566cef6afcf9de, type: 2}
-  value: 0.5
+  value: 0.9
   action: 1
   requiredUpgrades:
   - {fileID: 11400000, guid: 25013998281b1e64aa0bbce699a3216b, type: 2}
